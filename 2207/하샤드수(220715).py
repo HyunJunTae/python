@@ -18,7 +18,7 @@ def solution(x):
     return answer
 
 
-def solution1(x) :
+def solution1(x ) :
     for i in str(x) :
         h_num = h_num + int(i)
     return x % h_num == 0    
