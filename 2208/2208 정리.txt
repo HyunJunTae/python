@@ -25,3 +25,6 @@
 ★ 4/2 를 하면 결과가 2.0 float형으로 나옴. 이대로는 for 반복문의 range, 문자열 반복을 위한 곱하기에 사용 불가능.
 ★ / 나누기     // 몫       % 나머지.
 ★ 문자열 슬라이싱. a = 'Hello' 에서 a[1:4] 하면 ell, a[1:] 하면 ello, a[:4] 하면 hell.
+
+서울에서김서방
+★ 리스트에서 listname.index("onggibot") 하면 onggibot이 listname 리스트에서 몇 번 자리에 있는지 나옴.
