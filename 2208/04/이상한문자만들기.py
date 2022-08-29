@@ -30,6 +30,7 @@ def solution1(s):
             c = x[i].upper() if i % 2 == 0 else x[i].lower()
             word = word + c
         res.append(word) 
+    print(res)
     return ' '.join(res)
 # 문자열도 인덱스로 접근 가능. upper lower 사용. join으로 리스트들을 문자열로 이어주기. 빈칸 한 칸씩 띄워서.
 

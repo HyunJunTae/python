@@ -18,4 +18,4 @@ def solution1(n):
 
 
 n = int(input("Input : "))
-print(solution(n))
+print(solution1(n))
