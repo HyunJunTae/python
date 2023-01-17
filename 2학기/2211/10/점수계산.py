@@ -1,3 +1,24 @@
+# a = []
+# for i in range(8) :
+#     a.append(int(input()))
+
+# b = []
+# sum = 0
+# for i in range(5) :
+#     k = a.index(max(a))
+#     sum += a[k]
+#     b.append(k)
+#     a[k] = 0
+
+# b.sort()
+
+# print(sum)
+# for i in range(5) :
+#     print(b[i]+1, end = ' ')
+
+
+
+
 # score_dic = {}
 # sum = 0
 
@@ -15,20 +36,9 @@
 
 
 
-a = []
+
+
+score_dic = {}
+
 for i in range(8) :
-    a.append(int(input()))
-
-b = []
-sum = 0
-for i in range(5) :
-    k = a.index(max(a))
-    sum += a[k]
-    b.append(k)
-    a[k] = 0
-
-b.sort()
-
-print(sum)
-for i in range(5) :
-    print(b[i]+1, end = ' ')
+    score_dic[i] = int(input())
